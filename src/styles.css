@@ -1,0 +1,19 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#game-section{
+  width: 100%;
+  padding: 2rem 1rem;
+}
+#game-section .wrapper{
+  position: relative;
+  margin: 0px auto;
+  max-width: 720px;
+}
+#game-container{
+  position: relative;
+}
